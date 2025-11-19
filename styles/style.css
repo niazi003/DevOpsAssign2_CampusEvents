@@ -1,0 +1,53 @@
+/* Taimur's CSS - Designed to create a conflict */
+
+/* GLOBAL STYLES */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    /* This background color is likely different from the main branch */
+    background-color: #e0e0e0;
+    margin: 0;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    /* Changing the header color is a common conflict trigger */
+    color: #d32f2f;
+    text-transform: uppercase;
+}
+
+/* NAVIGATION */
+nav {
+    background-color: #333;
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 15px;
+}
+
+nav a:hover {
+    color: #ff9800;
+}
+
+/* GALLERY SPECIFIC STYLES (Your actual task) */
+.gallery-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.photo {
+    background-color: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    border-radius: 8px;
+}
