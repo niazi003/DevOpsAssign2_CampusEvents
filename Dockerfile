@@ -13,8 +13,7 @@ RUN npm install -g parcel && npm install
 COPY . .
 
 # Build the static website
-RUN parcel build src/index.html --public-url ./
-
+RUN parcel build src/*.html --public-url ./
 # Stage 2: Serve with Nginx
 FROM nginx:alpine
 
