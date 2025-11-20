@@ -1,3 +1,4 @@
+
 FROM node:18-alpine as builder
 WORKDIR /DevOpsAssign2
 COPY package.json ./
