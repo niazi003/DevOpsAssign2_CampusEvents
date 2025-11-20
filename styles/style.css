@@ -143,6 +143,7 @@ ul:not(.nav-links) li {
     border-radius: 8px;
     border: 2px dashed #bdc3c7;
 }
+
 form {
     max-width: 600px;
     margin: 20px auto;
@@ -176,7 +177,7 @@ form button {
     border-radius: 5px;
     font-size: 1.1rem;
     cursor: pointer;
-    transition: background 0.3s;
+
 }
 
 form button:hover {
